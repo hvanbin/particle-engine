@@ -4,7 +4,7 @@ A particle system engine built with Bevy that demonstrates various particle beha
 
 ## Features
 
-- **Player Particle**: A controllable triangular particle that clearly shows forward direction
+- **Player Particle**: A controllable triangular particle
 - **Test Particles**: Two particles that move automatically and can collide with each other
 - **Autonomous Particles**: 360 particles arranged in a circle with color-shifting effects
 - **Boundary Collision**: Particles can either bounce off boundaries or reset to initial position
@@ -55,7 +55,3 @@ The engine uses Bevy's Entity Component System (ECS) architecture with a modular
 - Autonomous particle updates
 - Collision detection
 - Visual boundary rendering
-
-Each particle has properties for position, direction, size, collision behavior, and boundary interaction modes. The player particle uses a custom triangle mesh to clearly indicate forward direction, while other particles use simple square sprites.
-
-The modular structure makes the code easier to maintain and extend, with clear separation between components, systems, and setup logic.
